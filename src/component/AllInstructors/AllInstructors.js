@@ -8,8 +8,8 @@ const AllInstructors = () => {
     const [instructors, setInstructors] = useState(data)
    
     return (
-        <div style={{width:"auto",backgroundColor:"black"}}>
-            <section id="instructors" class="p-5 bg-primary">
+        <div style={{backgroundColor:"black"}}>
+            <section id="instructors" class="p-5 ">
              <div class="container">
                 <h2 class="text-center text-white">Our Instructors</h2>
             <p class="lead text-center text-white mb-5">

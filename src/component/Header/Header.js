@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
@@ -11,9 +12,10 @@ const Header = () => {
 
         <div style={{left:'clear'}} className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div className="container">
-          <a href="/" className="navbar-brand">Coders <span>
+          <NavLink to="/" className="navbar-brand">Coders <span>
             <i class="devicon-java-plain"></i>
-          </span> <span className='text-warning' >Bootcamp</span> </a>
+          
+          </span> <span className='text-warning' >Bootcamp</span> </NavLink>
   
           <button className="navbar-toggler" type="button"
             data-bs-toggle="collapse"
@@ -25,22 +27,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a href="/" className="nav-link">Home</a>
+                <NavLink to="/" className="nav-link">Home</NavLink>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link">What You'll Learn</a>
+                <NavLink to="/courses" className="nav-link">What You'll Learn</NavLink>
               </li>
               <li className="nav-item">
-                <a href="/instructors" className="nav-link">Instructors</a>
+                <NavLink to="/instructors" className="nav-link">Instructors</NavLink>
               </li>
               <li className="nav-item">
-                <a href="/contact" className="nav-link">Contact us</a>
+                <NavLink to="/contact" className="nav-link">Contact us</NavLink>
               </li>
               <li className="nav-item">
-                <a href="/login" className="nav-link">LogIn</a>
+                <NavLink to="/login" className="nav-link">LogIn</NavLink>
               </li>
               <li className="nav-item">
-                <a href="/signup" className="nav-link">SignUp</a>
+                <NavLink to="/register" className="nav-link">Register</NavLink>
               </li>
             </ul>
           </div>

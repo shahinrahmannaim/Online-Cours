@@ -28,6 +28,10 @@ const Showcase = () => {
             alt=""
           />
         </div>
+      
+          
+
+         
         
       </Container>
     </div>

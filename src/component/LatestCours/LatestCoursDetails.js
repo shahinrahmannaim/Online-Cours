@@ -1,12 +1,9 @@
 import React from 'react';
-import { Container,Row,Col, Card,Button} from 'react-bootstrap';
-import './CoursDetails.css';
 
-const CouresDetail = (props) => {
-    const {language,icon}=props.cours;
+const LatestCoursDetails = (props) => {
+    const {language,icon}=props.data;
     return (
-      <div style={{float:'left',width:"200px"}} className="m-3" >
-          {/* <div className="col-md-3 col-lg-3"> */}
+      <div style={{float:'left', width:"250px"}} className="m-3" >
             <div  className="card bg-light">
               <div  className="card-body text-center">
                 <img src={icon} style={{width:"100px"}} className="rounded-circle mb-3"  alt=""
@@ -28,10 +25,8 @@ const CouresDetail = (props) => {
             </button>
               </div>
             </div>
-            {/* </div> */}
             </div>
-           
     );
 };
 
-export default CouresDetail;
+export default LatestCoursDetails;

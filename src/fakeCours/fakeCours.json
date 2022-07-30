@@ -1,0 +1,82 @@
+[
+    {
+     "language":"Java",
+     "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "id": "1"
+    },
+    {
+      "language":"C",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      "id": "2"
+    },
+    {
+      "language":"Python",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+     "id": "3"
+    },
+    {
+      "language":"HTML",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+     "id": "4"
+    },
+    {
+      "language":"CSS",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
+      "id": "5"
+    },
+    {
+      "language":"JS",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+     "id": "6"
+    },
+    {
+      "language":"C++",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      "id": "7"
+    },
+    {
+      "language":"GO",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+     "id": "8"
+    },
+    {
+      "language":"MYSQL",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+     "id": "9"
+    },
+    {
+      "language":"SYMFONY",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg",
+     "id": "10"
+    },
+    {
+      "language":"LARAVEL",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg",
+     "id": "11"
+    },
+    {
+      "language":"REACTJS",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+     "id": "12"
+    },
+    {
+      "language":"NODEJS",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+     "id": "13"
+    },
+    {
+      "language":"Angular",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+       "id": "14"
+    },
+    {
+      "language":"PHP",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+       "id": "14"
+    },
+    {
+      "language":"VUEJS",
+      "icon":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+       "id": "14"
+    }
+   ]

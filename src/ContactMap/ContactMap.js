@@ -3,7 +3,7 @@ import './ContactMap.css';
 
 const ContactMap = () => {
     return (
-        <section className="p-5">
+        <section className="p-5 ">
         <div className="container">
           <div className="row g-4">
             <div className="col-md">

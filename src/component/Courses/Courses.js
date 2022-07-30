@@ -1,24 +1,32 @@
-import {Container,Row} from 'react-bootstrap';
-import React, { useEffect, useState } from 'react';
-// import fakeData from '../../fakeData/Courses'
+import React, {  useState } from 'react';
+import fakeCours from '../../fakeCours/fakeCours'
 import CouresDetail from '../CoursDetails/CouresDetail';
 
 const Courses = () => {
-    // const fakeData4 = fakeData.slice(0,4)
-    // const[courses,setCourses]= useState(fakeData4);
+    const fakeData = fakeCours;
+    const[courses,setCourses]= useState(fakeData);
    
     return (
-        <Container style={{width:"auto",backgroundColor:"black"}} >
-            <h1>heloo</h1>
-            {/* <Row style={{background:'red',textAlign:'center',width:'1100px',marginLeft:'auto', marginRight:'auto' }} >
 
-            {
-                courses.map(cors=> <CouresDetail key={cors.id} courses={cors} ></CouresDetail> )
-            }
-            
-            </Row> */}
-            
-        </Container>
+        <div style={{backgroundColor:"black"}}>
+        <section id="instructors" class="p-5 ">
+         <div class="container">
+            <h2 class="text-center text-white">Our Courses</h2>
+        <p class="lead text-center text-white mb-5">
+          Our instructors all have 5+ years working as a web developer in the
+         industry
+        </p>
+    <div style={{marginLeft:"100px"}} class="row g-2">
+
+    {
+                            courses.map(cours=> <CouresDetail  cours={cours} ></CouresDetail> )
+                        }
+                
+    </div>
+        </div>
+        </section>
+    </div>
+           
     );
 };
 

@@ -4,12 +4,15 @@ import Showcase from '../Showcase/Showcase';
 import Box from '../Box/Box';
 import Learn from '../Learn/Learn';
 import FrequentlyAskedQuestions from '../FrequentlyAskedQuestions/FrequentlyAskedQuestions';
+import LatestCours from '../LatestCours/LatestCours';
+// import './Home.css'
 
 
 const Home = () => {
     return (
-        <div>
+        <div  >
             <Showcase></Showcase>
+            <LatestCours></LatestCours>
             <Box></Box>
             <Learn></Learn>
             <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
