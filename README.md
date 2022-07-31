@@ -1,5 +1,18 @@
 # Getting Started with Create React App
 
+website version--001.
+website  name: CodersCafe Bootcamp.
+type of web iste: its a online cours web site to learn how to code and learn new languages.
+the web site is fully responsive  done by bootstarap.
+
+the web site has a nav bar body and footer.
+nav bar has Home , contant, instructors, contact, login and register.
+the navbar and footer stays in every page you navigate,
+all the content courses and instructors details comes from fake api.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

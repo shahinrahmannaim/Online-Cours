@@ -1,9 +1,11 @@
 import React from 'react';
+import GoogleMap from '../component/GoogleMap/GoogleMap';
 import './ContactMap.css';
 
 const ContactMap = () => {
     return (
-        <section className="p-5 ">
+      
+        <div style={{clear:"left"}} className="p-5 m-2">
         <div className="container">
           <div className="row g-4">
             <div className="col-md">
@@ -28,12 +30,14 @@ const ContactMap = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md">
-              <div id="map"></div>
+            <div style={{position:"relative"}} className="col-md">
+             {/* <div style={{}} ></div> */}
+                <GoogleMap></GoogleMap>
+              
             </div>
           </div>
         </div>
-      </section>
+      </div>
   
     );
 };

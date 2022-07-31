@@ -1,3 +1,4 @@
+import {Container} from 'react-bootstrap';
 import React from 'react';
 
 
@@ -5,11 +6,11 @@ const Footer = () => {
     // const date= Date("Y");
     return (
      <div style={{clear:'left', marginTop:"auto"}} className="" >
-        <div 
+        <div
           className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
           
           <div className="text-white mb-3 mb-md-0">
-            Copyright © {new Date().getFullYear()}. All rights reserved.
+            Copyright © {new Date().getFullYear()}. All rights reserved CodersCafe Bootcamp.
           </div>
           
           <div>
@@ -70,16 +71,7 @@ const Footer = () => {
               </div>
             </form>
           </div>
-          <div className="modal-footer">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" className="btn btn-primary">Submit</button>
-          </div>
+         
         </div>
       </div>
     </div>
